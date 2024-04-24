@@ -1,9 +1,13 @@
 {
+  "name": "@v19/oauth",
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "rollup -c && tsc"
+  },
+  "repository": {
+    "url": "https://github.com/v19-io/oauth"
   },
   "types": "./lib/index.d.ts",
   "main": "./cjs/index.cjs",
